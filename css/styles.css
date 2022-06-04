@@ -1,0 +1,236 @@
+:root {
+--main-text-color: #212121;
+--second-background-color: #F5F4FA;
+--footer-background-color: #2F303A;
+--paragraph-text-color: #757575;
+--accent-color: #2196F3;
+--main-paragraph-color: #FFFFFF;
+--contact-info-color: #rgba(255, 255, 255, 0.6);
+--first-background-color: #E5E5E5;
+--second-background-color: rgba(245, 244, 250, 1);
+}
+
+body {
+    background-color: var (var(--first-background-color));
+    color: #212121;
+
+font-family: Roboto, sans-serif;    
+}
+
+.logo {
+    color: #212121;
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+}
+
+.logo-color {
+    color: #2196F3;
+    font-family: Raleway, sans-serif;
+}
+
+.logo, .logo-color {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+
+}
+
+.list {
+    list-style: none ;
+}
+
+/* Site nav */
+
+.site-nav .link {
+color: var(--main-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+color: var(--paragraph-text-color);
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.3;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+    background-color: var(--footer-background-color);
+    color: var(--main-paragraph-color)
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* Section 1 */
+.section-title {
+    color: #212121;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+/* Section2 features */
+
+.section-title .title {
+    color: #212121;;
+}
+
+.title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.features-text {
+    color: var(--paragraph-text-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+
+/* section 4 our team*/
+.our-team {
+background-color: var(--second-background-color);
+}
+
+.team-discription {
+    color: var(--paragraph-text-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+/* footer */
+footer {
+    background-color: var(--footer-background-color);
+}
+
+.studio-logo {
+    color: #FFFFFF;
+}
+
+.address {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.contact-info{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+    color: var(--accent-color);
+}
+
+/* portfolio */
+
+.project-name {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+}
+
+.features-text-discription {
+    color: var(--paragraph-text-color);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+
+}
+
+/* buttons */
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--main-paragraph-color);
+}
+
+.portfolio-button {
+    background-color: var(--second-background-color);
+color: var(--main-text-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--accent-color);
+    color: var(--main-paragraph-color);   
+}
