@@ -90,7 +90,8 @@ text-transform: uppercase;
 
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--main-paragraph-color);
+    font-size: 44px;
 }
 
 /* Section 1 */
@@ -228,7 +229,7 @@ line-height: 1.9;
 
 .hero-button .portfolio-button-current:hover,
 .hero-button .portfolio-button-current:focus {
-color: var(--accent-color);
+color: #188ce8;
 
 }
 
@@ -249,7 +250,7 @@ line-height: 1.6;
 }
 
 .portfolio-button-current {
-    color: var(--first-background-color);
+    color: #fff
     background-color: var(--accent-color);
     font-family: 'Roboto';
 font-style: normal;
