@@ -227,9 +227,9 @@ font-size: 16px;
 line-height: 1.9;
 }
 
-.hero-button .portfolio-button-current:hover,
-.hero-button .portfolio-button-current:focus {
-color: #188ce8;
+.hero-button, .portfolio-button-current:hover,
+.hero-button, .portfolio-button-current:focus {
+background-color: #188ce8;
 
 }
 
@@ -250,7 +250,7 @@ line-height: 1.6;
 }
 
 .portfolio-button-current {
-    color: #fff
+    color: #fff;
     background-color: var(--accent-color);
     font-family: 'Roboto';
 font-style: normal;
