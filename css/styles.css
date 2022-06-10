@@ -227,8 +227,13 @@ font-size: 16px;
 line-height: 1.9;
 }
 
-.hero-button, .portfolio-button-current:hover,
-.hero-button, .portfolio-button-current:focus {
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188ce8;
+}
+
+.portfolio-button-current:hover,
+.portfolio-button-current:focus {
 background-color: #188ce8;
 
 }
